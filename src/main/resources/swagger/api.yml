@@ -1,0 +1,36 @@
+# API-first development with OpenAPI
+# This file will be used at compile time to generate Spring-MVC endpoint stubs using openapi-generator
+openapi: '3.0.1'
+info:
+    title: 'multipleApiSpecsSample'
+    version: 1.0
+paths:
+    /api/hello:
+        post:
+            requestBody:
+                content:
+                    application/vnd.vroong.public.v1+json:
+                        schema:
+                            type: object
+                            properties:
+                                fullName:
+                                    type: string
+            responses:
+                '200':
+                    description: OK
+                    content:
+                        application/vnd.vroong.public.v1+json:
+                            schema:
+                                type: object
+                                properties:
+                                    greeting:
+                                        type: string
+components:
+    securitySchemes:
+        jwt:
+            type: http
+            description: JWT Authentication
+            scheme: bearer
+            bearerFormat: JWT
+security:
+    - jwt: []

@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "multipleApiSpecsSample",
+    "packageName": "com.vroong.multipleapispecss",
+    "packageFolder": "com/vroong/multipleapispecss",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ZmM1NzJhNTNkYWIyNmExNjliMWMwZDg2ZmVhZTk1NmZmM2MwNmJjZTA2NmNlYTllMDQ4OGI2NzRkZjFkM2M5MzBmZmFjNmY3ZjVhMDExZDQ0YzQ4ODUxZGEwYjczOTEyMGE3ZTQ2NDA4YmVmYTRjN2IxOWFkY2E5NzhlOWUxMzA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
